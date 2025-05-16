@@ -88,7 +88,7 @@ MyFile.close();
 			return 1;
 		}
 // //this would call to execute the file 
-		std::string execute_command = "./ready";
+		std::string execute_command = "ready";
 		int execute_result = system(execute_command.c_str());
 		if(execute_result != 0)
  		{
